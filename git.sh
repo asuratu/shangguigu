@@ -14,3 +14,4 @@ git commit -m "$CONTENT"
 # git push
 git push origin main
 echo "git push success"
+exit
