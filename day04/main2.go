@@ -21,6 +21,7 @@ func main() {
 	//    13. 接口: interface (interface{}是空接口, 任何类型都实现了空接口, any 可以替代 interface{})
 	//    14. 函数: function (func)
 	//	  15. 类型别名: type
+
 	type MyInt int32
 	var a MyInt = 10
 	fmt.Println(a)
