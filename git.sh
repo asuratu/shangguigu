@@ -13,4 +13,4 @@ echo "git pull success"
 
 git push origin main
 echo "git push success"
-exit
+exit 0
