@@ -5,13 +5,12 @@ if [ -z "$CONTENT" ]; then
     CONTENT="update"
 fi
 
-git pull
-echo "git pull success"
-
 git add .
 git commit -m "$CONTENT"
 
-# git push
+git pull
+echo "git pull success"
+
 git push origin main
 echo "git push success"
 exit
