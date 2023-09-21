@@ -22,4 +22,10 @@ func main() {
 	//    6. \\: 反斜杠
 	fmt.Println("Hello \\World!")
 
+	// 格式化
+	// 使用 gofmt -w main.go 格式化代码, 同时会将代码保存到 main.go 文件中
+	// 使用 gofmt -w . 格式化当前目录下的所有代码, 同时会将代码保存到原文件中
+
+	// q: API 什么是 API?
+	// a: API: Application Programming Interface, 应用程序编程接口
 }
