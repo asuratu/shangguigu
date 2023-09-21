@@ -7,10 +7,4 @@ fi
 
 git add .
 git commit -m "$CONTENT"
-
-git pull
-echo "git pull success"
-
-git push origin main
-echo "git push success"
-exit 0
+git push
